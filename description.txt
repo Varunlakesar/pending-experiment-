@@ -1,31 +1,18 @@
-anvas Freehand Drawing Tool
+I have created a simple and clean banking interface using HTML and CSS.
 
-This is a simple web app where you can draw freely on a canvas using your mouse. Its made using HTML, CSS and JavaScript. You just click and drag your mouse and it draws lines in real time, kinda like using a pen on paper.
+HTML:
+ In the HTML file, I added a structure that includes an outer box and an inner box. 
+ Inside the inner box, I displayed a balance amount using an <h1> tag, which shows "$0" by default.
+ Below that, I placed two buttons one for Deposit and one for Withdraw. 
+ These buttons are placed inside their own div blocks  to keep them organized. 
 
-Features:
+ CSS:
 
-Draw in real time as you move the mouse.
-
-Lines are blue and smooth, and you can change size if you want.
-
-Drawing stops when you release mouse or leave the canvas.
-
-Very simple and light, works in any browser.
-
-What I learned:
-
-How to use canvas to draw instead of SVG.
-
-Handling mouse events like mousedown, mousemove, mouseup.
-
-How to draw lines dynamically with JS.
-
-Made my first interactive web drawing app.
-
-Technologies used:
-
-HTML5 for the canvas and page.
-
-CSS3 for style.
-
-JavaScript for drawing and events.
+ In the CSS file, I styled the full page to be centered using Flexbox.
+ I made it with a light gray background and Arial font. 
+ I styled the outer_box to have padding, rounded corners, and a shadow effect to make it look nice.
+ Inside it, the inner_box has a white background, padding, and center-aligned text with its own shadow. 
+ I also styled the heading to make the balance amount look clear.
+ The heading that shows the balance is made bigger and darker for clear visibility. 
+ I also styled both buttons with padding, rounded edges. 
+ The Deposit button is green to show positive action, and the Withdraw button is red to show money being taken out.
